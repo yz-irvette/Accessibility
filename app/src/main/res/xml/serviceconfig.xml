@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <accessibility-service
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:accessibilityEventTypes="typeAllMask"
+        android:accessibilityFeedbackType="feedbackSpoken"
+        android:notificationTimeout="100"
+        android:settingsActivity="com.example.android.accessibility.ServiceSettingsActivity"
+        android:canRetrieveWindowContent="true"
+        android:canRequestTouchExplorationMode="true"
+        android:canRequestEnhancedWebAccessibility="true"
+        android:canRequestFilterKeyEvents="true" />
+    <!--android:settingsActivity="com.example.android.apis.accessibility.TestBackActivity"-->
